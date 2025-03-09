@@ -1,0 +1,142 @@
+.card {
+    position: relative;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #00000020;
+    border-radius: 0.8rem;
+    box-shadow: 0 1px 3px #0000001f, 0 1px 2px #0000003d !important;
+    background: hsl(220deg 14% 97%) !important;
+    text-align: left;
+    color: #000 !important;
+    min-width: 300px;
+    max-width: 350px;
+}
+
+.card.border-0 {
+    border: none;
+}
+
+.card-img-overlay.three {
+    content: " ";
+    height: 140px;
+    width: 100%;
+    display: block;
+    position: relative;
+    background-size: cover;
+    border-radius: 12px 12px 2px 2px;
+    background-position: 50% 50%;
+}
+
+.card-img-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1.25rem;
+    border-radius: 0.8rem;
+}
+
+.badge {
+    padding: 3.5px 5.5px;
+    font-size: 12px;
+    border-radius: 4px;
+    font-family: Roboto;
+    color: #fff;
+}
+
+.badge-light {
+    background: linear-gradient(#c1353e, #c22b3a, #e42d49, #e32c3e);
+}
+
+.card-smooth-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(#00000000, #000000fa);
+    padding: 2rem 1.5rem 1.5rem;
+}
+
+.card-title {
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.card-subtitle {
+    font-weight: 400;
+    margin-top: 0.2rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem 1.25rem;
+    padding-bottom: 0;
+}
+
+.card-text {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.75;
+    line-height: 25px;
+    font-family: source sans pro;
+}
+
+.card-footer {
+    padding: 1.5rem;
+    background-color: transparent;
+    border-top: 0;
+    border-bottom-right-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+}
+
+.media {
+    display: flex;
+    align-items: center;
+}
+
+.media-body {
+    flex: 1;
+}
+
+.card-link {
+    font-size: 1rem;
+    letter-spacing: 0.0178571em;
+    font-weight: 500;
+    color: hsl(233deg 5% 26%) !important;
+    text-transform: uppercase;
+    border-radius: 5px !important;
+    padding: 6px 12px;
+}
+
+.card-img-overlay.three {
+    content: " ";
+    height: 140px;
+    width: 100%;
+    display: block;
+    position: relative;
+    background-image: url(https://cdn.shopify.com/s/files/1/0758/3005/products/A3_DAY_ArtPrint_1200x.jpg?v=1605692196);
+    background-size: cover;
+    border-radius: 12px 12px 2px 2px;
+    background-position: 50% 50%;
+}
+
+.read-more{
+    border-radius: 5px !important;
+    letter-spacing: 0.5px !important;
+    box-shadow: 0 1px 3px #0000001a, 0 1px 2px #00000033, inset 1px 1px 1px #ffffff99, inset -1px -1px 1px #0c0d120f, -1px -1px 1px #ffffff99, -1px -1px 4px #ffffff99, -2px -2px 8px #ffffff99, 1px 1px 1px #0c0d120f, 1px 1px 4px #0c0d120f, 2px 2px 8px #0c0d120f !important;
+    background-color: hsl(228deg 14% 93%);
+    text-shadow: 0.25px 0.25px 0.25px hsl(233deg 5% 26% / 85%), 0.35px 0.35px 0.35px hsl(233deg 5% 26% / 85%), 0 -1.1px 0 rgb(12 13 18 / 8%), 0 1.2px 0 #fff !important;
+    color: hsl(233deg 5% 26%) !important;
+    font-weight: 300 !important;
+    border: none !important;
+    padding: 6px 12px;
+    text-transform: uppercase;
+    font-size: 11px;
+}

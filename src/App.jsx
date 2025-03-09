@@ -1,14 +1,9 @@
-import { Route, Routes } from 'react-router-dom';
-import { HomePage } from './modules/home';
-import { FormPage } from './modules/formManagment';
+import { Router } from './routes/router';
 
 function App() {
 
   return (
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/form" element={<FormPage />} />
-    </Routes>
+    <Router></Router>
   );
 }
 
