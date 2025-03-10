@@ -1,8 +1,9 @@
 # PROYECTO REACT FORMS
 - Creador: David Ruiz
 - Numero: +593 992959886
+- Pagina: www.davidruiz.site
 
-### El proyecto React Forms se realizo en un estimado de 12 horas (se puede revisar logs de git)
+### El proyecto React Forms se realizo en un estimado de 12 horas (se puede revisar logs de git) ya que al momento de recibir la prueba no me encontraba disponible para realizarla
 
 - Utilice una arquitectura de "modularizacion" para dividir cada parte de la app por modulos y que sea facil de escalar
 
