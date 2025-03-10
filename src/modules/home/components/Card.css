@@ -27,6 +27,16 @@
     background-size: cover;
     border-radius: 12px 12px 2px 2px;
     background-position: 50% 50%;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: self-start !important;
+}
+
+.card-img-overlay.three .delete {
+    cursor: pointer;
+    z-index: 1000;
+    position: relative;
+    font-size: 15px;
 }
 
 .card-img-overlay {

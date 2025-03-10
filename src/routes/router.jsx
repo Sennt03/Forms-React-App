@@ -1,6 +1,7 @@
 import { Link, Route, Routes } from 'react-router-dom';
 import { HomePage } from '../modules/home';
 import { FormPage } from '../modules/formManagment';
+import { PlayPage } from '../modules/play/PlayPage';
 
 export const Router = () => {
   const onMenuToggle = () => {
@@ -25,7 +26,8 @@ export const Router = () => {
     <>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/create" element={<FormPage />} />
+        <Route path="/create/:formId?" element={<FormPage />} />
+        <Route path="/play/:formId" element={<PlayPage />} />
       </Routes>
     </>
   );
